@@ -20,4 +20,4 @@ jobs:
             sudo docker build -t flask-app .
             sudo docker stop flask-container || true
             sudo docker rm flask-container || true
-            sudo docker run -dp 80:5000 --name flask-container flask-app
+            sudo docker run -dp 5000:5000 --name flask-container flask-app
