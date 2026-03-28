@@ -20,16 +20,11 @@ The main objective of this project was to move from a local development environm
     *   Securely connects to the AWS instance using SSH Secrets.
     *   Pulls the latest code and restarts the Docker container automatically.
 
-## 📸 Proof of Concept
-The application was successfully deployed and served at `http://18.206.254.111:5000`. 
-
-![Live Deployment Screenshot](https://raw.githubusercontent.com)
-
 > **Note:** The cloud instance is currently decommissioned to manage costs, but the architecture remains fully documented and reproducible.
 
 ## 🚀 How to Run Locally
-To replicate the environment on your machine:
-```bash
+To replicate the environment on your machine, ensure you have Docker installed and run:
+
 # Clone the repository
 git clone https://github.com
 cd devops-master-project
@@ -40,7 +35,7 @@ docker run -p 5000:5000 flask-app
 Используйте код с осторожностью.
 
 🗺 Road to Mastery
-This project is part 1 of a 3-part DevOps series:
+This project is Part 1 of a 3-part DevOps series:
 Part 1: Single Container Deployment (This Repo) ✅
 Part 2: Multi-Container Orchestration (Docker Compose) 🔜
 Part 3: Scalable Infrastructure with Kubernetes (K8s) 🔜
